@@ -2,9 +2,12 @@
 
 /**
  * egg-yup default config
+ *
  * @member Config#yup
- * @property {String} SOME_KEY - some description
  */
 exports.yup = {
-
+  locale: null,
+  locales: {},
+  options: {},
+  onerror: null,
 };

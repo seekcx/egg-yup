@@ -1,6 +1,6 @@
 {
   "name": "egg-yup",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "async validate plugin base on yup",
   "eggPlugin": {
     "name": "yup"
@@ -10,7 +10,10 @@
     "eggPlugin",
     "egg-plugin"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "@types/yup": "^0.24.3",
+    "yup": "^0.24.1"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
@@ -35,21 +38,21 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
-    "config"
+    "app",
+    "config",
+    "app.js"
   ],
   "ci": {
     "version": "8, 9"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-yup.git"
+    "url": "git+https://github.com/seekcx/egg-yup.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/seekcx/egg-yup/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-yup#readme",
+  "homepage": "https://github.com/seekcx/egg-yup#readme",
   "author": "abel <abel@seek.cx>",
   "license": "MIT"
 }
