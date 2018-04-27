@@ -99,7 +99,7 @@ await ctx.validate({
 
 ## Api reference
 
-### app.yup -> yup
+### app.yup
 Original yup
 
 ### app.setYupLocale(locale: string | object)
@@ -117,14 +117,14 @@ app.setYupLocale({
 });
 ```
 
-### ctx.validate(rules: object[, values: object = null [, options: object = null]]) -> Promise
+### ctx.validate(rules: object[, values: object = null [, options: object = null]])
 Async validate. **In order to allow asynchronous custom validations all (or no) tests are run asynchronously. A consequence of this is that test execution order cannot be guaranteed.** ref: [yup-doc](https://github.com/jquense/yup#mixedtestname-string-message-string-test-function-schema)
 
  - `rules`:  validate rules
  - `values`: validate data, default `ctx.request.body`
  - `options`: this will override the `options` in the config.
 
-### ctx.validateSync(rules: object[, values: object = null [, options: object = null]]) -> Promise
+### ctx.validateSync(rules: object[, values: object = null [, options: object = null]])
 Sync validate
 
  - `rules`:  validate rules
