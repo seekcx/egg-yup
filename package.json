@@ -1,6 +1,6 @@
 {
   "name": "egg-yup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "async validate plugin base on yup",
   "eggPlugin": {
     "name": "yup"
