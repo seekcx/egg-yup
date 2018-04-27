@@ -13,7 +13,7 @@ const handle = (promise, errorHandle, ctx) => {
 module.exports = {
 
   validate(rules, values = null, options = null) {
-    options = Object.create({}, this.app.config.yup.options, options);
+    options = Object.assign({}, this.app.config.yup.options, options);
 
     const promise = make(this.app.yup, rules)
       .validate(values || this.request.body, options);
@@ -22,7 +22,7 @@ module.exports = {
   },
 
   validateSync(rules, values = null, options = null) {
-    options = Object.create({}, this.app.config.yup.options, options);
+    options = Object.assign({}, this.app.config.yup.options, options);
 
     return make(this.app.yup, rules)
       .validateSync(values || this.request.body, options);
