@@ -9,7 +9,7 @@
 
 [npm-image]: https://img.shields.io/npm/v/egg-yup.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/egg-yup
-[travis-image]: https://img.shields.io/travis/eggjs/egg-yup.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/seekcx/egg-yup.svg?style=flat-square
 [travis-url]: https://travis-ci.org/seekcx/egg-yup
 [codecov-image]: https://img.shields.io/codecov/c/github/seekcx/egg-yup.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/seekcx/egg-yup?branch=master
